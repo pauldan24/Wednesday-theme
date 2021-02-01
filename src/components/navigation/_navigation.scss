@@ -1,6 +1,41 @@
-.cmp-navigation {}
+.cmp-navigation {
+  list-style: none;
+}
 .cmp-navigation__group {}
 .cmp-navigation__item {}
 .cmp-navigation__item--active {}
 // .cmp-navigation__item--level-0 {}
-.cmp-navigation__item-link {}
+.cmp-navigation__item-link {
+}
+
+
+#kronos_site_navigation {
+  margin-left: 16rem;
+  display: inline-flex;
+  float: left;
+  clear: both;
+  width: 100%;
+  padding: 1em 0 1.5em;
+  font-weight: 400;
+  font-size: 1.125rem;
+  font-family: Source Sans Pro,sans-serif;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  border-bottom-color: rgba(34,34,34,.1);
+  -webkit-transition: all .1s linear;
+  transition: all .1s linear;
+}
+
+#kronos_site_navigation li {
+  position: relative;
+  display: inline-block;
+  width: 28%;
+  vertical-align: middle;
+  border-left: solid;
+  -webkit-transition: border-color .5s;
+  transition: border-color .5s;
+}
+
+#kronos_site_navigation li a {
+  margin-left: 0.5rem;
+}

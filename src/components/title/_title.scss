@@ -1,3 +1,48 @@
-.cmp-title {}
-.cmp-title__text {}
+.cmp-title {
+}
+.cmp-title__text {
+  font-weight: 500;
+}
 .cmp-title__link {}
+
+
+
+
+#kronos_title{
+  display: inline;
+  line-height: 0.267;
+  font-size: 1.5rem;
+  font-style: italic;
+  cursor: pointer;
+}
+
+#kronos_title_support_text{
+  font-style: italic;
+  margin-left: 7.5rem;
+  margin-top: 2.2rem;
+  width: max-content;
+}
+
+
+#featured_title{
+  margin-left: 4%;
+  margin-top: -54%;
+  font-size: 1.4375rem;
+  font-family: Georgia,Cambria,Times New Roman,Times,serif;
+  font-style: normal;
+}
+
+#updates_title{
+  clear: both;
+  width: 100%;
+  font-size: 20px;
+  font-style: italic;
+}
+
+#kronos_testimonial_title{
+  clear: both;
+  width: 100%;
+  font-size: 20px;
+  font-style: italic;
+  margin-left:18rem;
+}
