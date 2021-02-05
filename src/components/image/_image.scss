@@ -3,13 +3,35 @@
 .cmp-image__image {}
 .cmp-image__title {}
 
+#kronos_title_image{
+  max-width: 150px;
+  max-height: 46px;
+  margin-top: 10px;
+}
+//When screen is on mobile
+@media only screen and (max-width: 490px){
+  #kronos_title_image{
+    display: block;
+    margin: 0 auto;
+    height: 5rem;
+    width: 5rem;
+    margin-left: 8rem;
+  }
 
-
-#featured_image{
-  opacity: 0.25;
 }
 
-#updates_internal_image {
+#featured_image img{
+  opacity: 0.25;
+  height: 415px;
+  margin-top: 30px;
+}
+
+#updates_teaser img{
   display: block;
+  width: 300px;
+  height: 200px;
   border: 0;
 }
+
+
+

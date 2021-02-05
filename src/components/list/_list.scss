@@ -4,5 +4,16 @@
   color: black;
   text-decoration: none;
 }
-.cmp-list__item-title {}
+.cmp-list__item-title {
+  letter-spacing: 1px;
+}
 .cmp-list__item-date {}
+
+.cmp-list__item-description{
+  display: block;
+  margin-left: 0.5rem;
+  color: rgba(34,34,34,.9);
+  font-size: 9pt;
+  letter-spacing: 0;
+  text-transform: none;
+}

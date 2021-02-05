@@ -1,10 +1,8 @@
-.cmp-title {
-}
+.cmp-title {}
 .cmp-title__text {
-  font-weight: 500;
+  font-weight: 400;
 }
 .cmp-title__link {}
-
 
 
 
@@ -16,33 +14,33 @@
   cursor: pointer;
 }
 
-#kronos_title_support_text{
+
+//When screen is on mobile
+@media only screen and (max-width: 490px){
+  #kronos_title{
+    display: block;
+    margin: 0 auto;
+    margin-left: 3rem;
+  }
+
+}
+
+#updates_title, #kronos_testimonial_title{
+  margin-bottom: .5em;
+  font-size: 40px;
   font-style: italic;
-  margin-left: 7.5rem;
-  margin-top: 2.2rem;
-  width: max-content;
 }
 
 
-#featured_title{
-  margin-left: 4%;
-  margin-top: -54%;
-  font-size: 1.4375rem;
-  font-family: Georgia,Cambria,Times New Roman,Times,serif;
+#featured_header_title_text_button_container h1{
+  font-size: 1.6375rem;
   font-style: normal;
 }
 
-#updates_title{
-  clear: both;
-  width: 100%;
-  font-size: 20px;
-  font-style: italic;
-}
-
-#kronos_testimonial_title{
-  clear: both;
-  width: 100%;
-  font-size: 20px;
-  font-style: italic;
-  margin-left:18rem;
+#updates_teaser .cmp-teaser__title-link{
+  color: #000;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  font-size: 18px;
+  font-weight: 400;
 }
