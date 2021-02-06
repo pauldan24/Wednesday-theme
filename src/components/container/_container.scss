@@ -104,3 +104,33 @@
 #testimonial_parent_section{
   margin-bottom: 3rem;
 }
+
+#footer_parent_section{
+  color: white;
+  padding: 30px 0;
+  background-color: #222;
+}
+
+#footer_inner_container{
+  width: 100%;
+  display: block;
+  margin-left: 15%;
+}
+
+#footer_text_wall_container, #footer_twitter_container, #footer_google_map_container, #footer_contact_us_container{
+  width: 80%;
+  float: left;
+  padding: 0 30px;
+  margin: 10% 0px;
+}
+
+@media only screen and (max-width: 490px) {
+  #footer_text_wall_container, #footer_twitter_container, #footer_google_map_container, #footer_contact_us_container {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+  #footer_inner_container{
+    margin-left: 0;
+  }
+}
